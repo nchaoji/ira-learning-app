@@ -1,0 +1,513 @@
+
+
+
+
+
+
+BUSINESS REQUIREMENTS
+DOCUMENT
+Ira Learning Companion App
+
+A Reinforcement-Based Learning Intelligence Platform
+Progressive Web Application | Mobile-First
+Version 1.0 — May 2026
+
+
+
+Document Owner
+Niranjan
+Primary User
+Ira (Class 11–12, CBSE, PCB + Psychology)
+Platform
+Progressive Web Application (PWA), Mobile-First
+Target Launch
+July 2026 (MVP)
+Operational Horizon
+22 months: May 2026 – March 2028 (extendable through gap year)
+
+Contents
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:r><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:instrText>TOC \h \o "1-2"</w:instrText></w:r><w:r><w:fldChar w:fldCharType="separate"/></w:r><w:hyperlink w:anchor="_Toc230381744" w:history="1"><w:r w:rsidR="005D0DF3" w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>1. Executive Summary</w:r><w:r w:rsidR="005D0DF3"><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r w:rsidR="005D0DF3"><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381744 \h </w:instrText></w:r><w:r w:rsidR="005D0DF3"><w:rPr><w:noProof/></w:rPr></w:r><w:r w:rsidR="005D0DF3"><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r w:rsidR="005D0DF3"><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381745" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>2. Business Objectives</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381745 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381746" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>2.1 Primary Objectives</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381746 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381747" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>2.2 Secondary Objectives</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381747 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381748" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>3. Stakeholders &amp; Users</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381748 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381749" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>4. Scope</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381749 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381750" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>4.1 In Scope — v1 (MVP)</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381750 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381751" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>4.2 Deferred to v2</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381751 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381752" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>5. User Personas &amp; Journeys</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381752 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381753" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>5.1 Ira’s Daily Journey — An Aakash Class Day</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381753 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381754" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>5.2 Ira’s Weekly Journey — A Weekend with German</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381754 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381755" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>5.3 Niranjan’s Weekly Journey — The Parent Dashboard</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381755 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381756" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>6. Functional Requirements</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381756 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381757" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>6.1 Curriculum &amp; Learning Path Management</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381757 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381758" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>6.2 Daily Dashboard &amp; Task Engine</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381758 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381759" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>6.3 Post-Class Recall &amp; Active Retrieval System</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381759 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381760" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>6.4 Spaced Repetition Engine</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381760 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381761" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>6.5 Progress Tracking &amp; Analytics</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381761 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381762" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>6.6 Gamification System</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381762 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381763" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>6.7 Nudge &amp; Notification Engine</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381763 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381764" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>6.8 Journal &amp; Reflection Module</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381764 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381765" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>6.9 Parent Dashboard</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381765 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381766" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>6.10 AI Integration Layer (v2)</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381766 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381767" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>7. Key Performance Indicators</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381767 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381768" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>7.1 Engagement KPIs</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381768 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381769" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>7.2 Retention KPIs</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381769 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381770" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>7.3 Progress KPIs</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381770 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381771" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>7.4 Readiness KPIs (from Sep 2027)</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381771 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381772" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>7.5 Behavioural KPIs</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381772 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381773" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>8. Non-Functional Requirements</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381773 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381774" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>9. Assumptions &amp; Dependencies</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381774 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381775" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>9.1 Assumptions</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381775 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381776" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>9.2 Dependencies</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381776 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381777" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>10. Phasing &amp; Build Roadmap</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381777 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381778" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>10.1 Phase 1: MVP (Target: July 2026)</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381778 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381779" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>10.2 Phase 2: Learning Intelligence (Target: September 2026)</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381779 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381780" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>10.3 Phase 3: Analytics &amp; Readiness (Target: January 2027)</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381780 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+<w:tab w:val="right" w:leader="dot" w:pos="9350"/></w:tabs><w:rPr><w:noProof/></w:rPr></w:pPr><w:hyperlink w:anchor="_Toc230381781" w:history="1"><w:r w:rsidRPr="00CD32DF"><w:rPr><w:rStyle w:val="Hyperlink"/><w:noProof/></w:rPr><w:t>10.4 Phase 4: AI &amp; Exam Readiness (Target: July 2027)</w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:instrText xml:space="preserve"> PAGEREF _Toc230381781 \h </w:instrText></w:r><w:r><w:rPr><w:noProof/></w:rPr></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:noProof/></w:rPr><w:t>1
+
+
+1. Summary
+Ira is a Class 11 student (CBSE, PCB + Psychology) preparing simultaneously for CBSE boards, CUET, university-specific entrance exams (Christ, Ashoka, TISS), German language proficiency at Goethe-Institut, and NIOS Mathematics — seven parallel preparation tracks over 22 months.
+The primary risk is not capability, but drift — the gradual erosion of consistency across multiple tracks when no single track has an immediate deadline. A week of skipped GK becomes a month. A paused German course becomes a dropped one. The compound effect of drift across seven tracks is what derails even well-planned strategies.
+This app is a Learning Intelligence Platform that prevents drift, ensures retention through neuroscience-based reinforcement methods, makes progress visible to both Ira and her parent, and sustains motivation over a 22-month horizon through gamification mechanics that match her engagement patterns.
+
+The governing principle
+Make learning effective, not just tracked. The app doesn’t just record that she studied — it ensures she remembers what she studied, identifies gaps before they become problems, and connects daily effort to long-term outcomes. 
+Create knowledge (learning sessions), 
+Capture it (active recall and brain dumps), 
+Convert it (spaced repetition into durable memory).
+
+Design principle: trust, not surveillance
+The parent dashboard shows aggregated progress, not real-time activity monitoring. Niranjan sees track health (green/amber/red), streak status, and milestone progress — not every brain dump or journal entry. This respects Ira’s autonomy while keeping the parent informed. Trust but verify.
+2. Objectives
+2.1 Primary Objectives
+Prevent preparation drift across 7 parallel tracks over 22 months by making daily engagement habitual and visible.
+Maximize retention of learned material through neuroscience-based active recall and spaced repetition, ensuring that what she learns in Aakash, Goethe, and self-study actually stays in long-term memory.
+Provide real-time progress visibility to both Ira (motivational, achievement-focused) and her parent (strategic, exception-based), enabling timely course correction.
+Build exam readiness progressively, so that by the time boards and entrance exams arrive, she has data-driven confidence in her preparation rather than anxiety-driven cramming.
+2.2 Secondary Objectives
+Build the profile elements (reading, writing, volunteering) that differentiate her applications for Ashoka, Christ, and TISS — not as checkbox activities but as trackable, compounding habits.
+Create a structured record of her intellectual journey (journal entries, book reflections, concept maps) that directly feeds application essays and interview preparation.
+Sustain the Germany option by tracking German language progression against the required timeline for Studienkolleg readiness.
+
+3. Users &amp; Role
+User
+Role
+Primary Need
+Interaction Frequency
+Ira
+Primary user. Learner.
+Daily engagement, motivation, retention reinforcement, visible progress, gamification rewards.
+Multiple times daily (post-class recall, GK quiz, journal, spaced reviews).
+Niranjan (Parent)
+Oversight. Strategic planning.
+Progress tracking across all tracks, exception alerts (drift detection), milestone tracking, exam readiness assessment.
+2–3 times per week. Quick glance, not daily surveillance.
+Tutor (future)
+NIOS Maths tutor or any supplementary tutor.
+Assign topics, view recall quality for their subject. Deferred to v2.
+Weekly. Deferred.
+4. Scope
+4.1 Version 1 (MVP)
+Two-view PWA: Ira’s view (daily engagement) and Parent Dashboard (progress oversight).
+7-track structure: PCB-Physics, PCB-Chemistry, PCB-Biology, German, NIOS Maths, Psychology, GK/Current Affairs. Plus profile tracks: Volunteering, Writing/Journal.
+Curriculum upload and learning path management (manual structured entry, subject → module → chapter → concept hierarchy).
+Post-class recall engine: brain dump, three questions, connect prompt.
+Spaced repetition scheduler: Day 1, Day 2, Day 4, Day 7, Day 14 review cycles.
+Streak tracking across all tracks.
+Gamification: XP system, achievement badges, level progression.
+Daily dashboard with contextual task surfacing.
+Progress tracking with syllabus completion vs schedule.
+Exam readiness scoring (concept mastery heat map).
+Journal/reflection module.
+Push notifications for streaks, spaced repetition triggers, milestone reminders.
+Basic parent dashboard: track health, streaks, milestones, weekly summary.
+
+
+4.2 Version 2
+AI-powered smart recall prompt generation (Claude API integration).
+AI-based curriculum extraction from uploaded PDFs.
+Cross-subject connection suggestions (AI-generated interleaving prompts).
+Tutor view and tutor-assigned tasks.
+Mock test integration and score tracking.
+Voice note recording for Teaching Mode (Feynman technique).
+Social/peer features (comparison, shared challenges).
+Offline-first with background sync.
+
+5. User Personas &amp; Journeys
+5.1 Ira’s Daily Journey — An Aakash Class Day
+Morning (before school)
+Opens app. Daily dashboard shows: GK streak at 47 days, 1 spaced review due (Biology concept from 4 days ago), and a reminder that today is an Aakash day (Physics).
+Completes the spaced review: “Explain Newton’s Third Law in your own words.” Writes 2–3 sentences. Self-rates recall: 4/5. Concept moves from amber to green on her mastery map. +15 XP.
+Does the daily GK quiz: 5 questions on current affairs. Gets 4/5. Streak continues: 48 days. +10 XP.
+After Aakash class (evening)
+App prompts: “Aakash class done? Time for your recall session.”
+Brain Dump (5–10 min): writes everything she remembers from today’s Physics class on Thermodynamics. No notes, pure recall. 187 words. App records word count and timestamp.
+Three Questions: (1) Hardest concept? “Entropy and the second law.” (2) Explain it to a friend : writes 3–4 sentences in her own words. (3) One question still unanswered: “Why does entropy always increase — is there a deeper reason?”
+Connect prompt: “How does today’s topic relate to anything from another subject?” She writes: “Entropy reminds me of diffusion in Biology — molecules moving from high to low concentration is basically entropy in action.”
+Session complete. +25 XP. Recall streak: 12 Aakash days in a row. Badge unlocked: “Thermodynamics Tackled.”
+App schedules spaced reviews: this brain dump content will resurface tomorrow (Day 2), in 3 days (Day 4), in 6 days (Day 7), and in 13 days (Day 14).
+Before bed
+Quick journal entry: 3 sentences reflecting on a chapter she read in Thinking, Fast and Slow. +5 XP.
+App summary: “Great day! 55 XP earned. GK streak: 48. Recall streak: 12. You’re Level 7: Navigator.”
+
+
+
+
+5.2 Ira’s Weekly Journey — A Weekend with German
+Saturday morning: Goethe-Institut A1 class (8:45 AM – 1:45 PM).
+After class: German recall session. Brain dump in German: new vocabulary, grammar rules, example sentences. App stores for spaced repetition.
+Sunday: catches up on any missed spaced reviews from the week. Reads 20 pages of psychology book. Logs volunteering session from Saturday afternoon.
+Weekly Synthesis Challenge appears: “Pick one concept from Physics, one from Chemistry, one from Biology this week. How do they connect?” She writes a short paragraph. +50 bonus XP.
+
+5.3 Niranjan’s Weekly Journey — The Parent Dashboard
+Opens parent dashboard on Sunday evening. Sees the 7-track health overview:
+
+Track
+Status
+Streak
+Syllabus Progress
+Notes
+Physics
+✅ Green
+12 recall days
+38% (on schedule)
+Strong recall scores trending up
+Chemistry
+✅ Green
+12 recall days
+35% (on schedule)
+Organic Chem recall scores dipping
+Biology
+✅ Green
+12 recall days
+42% (1 week ahead)
+Strongest subject
+German
+✅ Green
+A1 Week 8/15
+53% of A1
+On track for Dec completion
+GK
+✅ Green
+48 days
+N/A (ongoing)
+Strong streak. Covering all categories.
+Psychology
+✅ Green
+Book 2 in progress
+NCERT Ch 4/16
+Reading on track
+Volunteering
+⚠ Amber
+Last session: 3 weeks ago
+N/A
+Needs a nudge — no session in 3 weeks
+
+Niranjan notices volunteering has gone amber. Sends a gentle nudge or has a conversation. Everything else is green — no action needed.
+Checks milestone tracker: next milestone is “A1 German completion — December 2026.” On track.
+Total time on dashboard: 3 minutes. That’s the goal.
+
+6. Functional Requirements
+6.1 Curriculum &amp; Learning Path Management
+The app must know what Ira is supposed to learn, structured hierarchically.
+FR-6.1.1: Curriculum Structure
+Four-level hierarchy: Track → Module → Chapter → Concept.
+Example: PCB-Biology → Human Physiology → Digestion &amp; Absorption → Enzymes of the Small Intestine.
+Each concept has a status: Not Started, Covered, Recall-Weak (red), Recall-Fading (amber), Recall-Strong (green).
+FR-6.1.2: Curriculum Data Entry
+Manual entry interface: parent or Ira can add subjects, modules, chapters, and concepts.
+Bulk upload via structured template (CSV or JSON).
+Progressive enrichment: start with chapter-level, add concept-level detail as each chapter is covered.
+FR-6.1.3: Learning Path Timeline
+Each track has a target completion date (e.g., Physics syllabus complete by Feb 2028).
+The app calculates required pace (chapters per week) and tracks actual vs required progress.
+Visual indicator: “X weeks ahead” or “X weeks behind schedule.”
+6.2 Daily Dashboard &amp; Task Engine
+FR-6.2.1: Ira’s Daily View
+Shows today’s date and a motivational streak summary (GK streak, recall streak, overall level).
+Surfaces 3–5 contextual tasks based on the day: spaced reviews due, GK quiz, post-class recall (if Aakash day), journal prompt.
+Tasks are prioritised: overdue spaced reviews first, then today’s core tasks, then optional enrichment.
+Completion of each task awards XP with a brief animation.
+FR-6.2.2: Calendar Awareness
+Aakash class schedule input (which days, which subjects). The app knows “today is a Physics day” and triggers the relevant recall session.
+Goethe class schedule input. Triggers German recall on class days.
+School schedule awareness for Psychology class days.
+Exam countdown timers: boards, CUET, Christ entrance, Ashoka deadline.
+6.3 Post-Class Recall &amp; Active Retrieval System
+The core learning engine. Based on neuroscience principles: active recall, generation effect, elaborative interrogation, and interleaving.
+FR-6.3.1: Brain Dump
+Triggered after each Aakash/Goethe/school Psychology class.
+Blank text area with prompt: “Write everything you remember from today’s class. No notes. Pure recall.”
+Timer shown (suggested 5–10 minutes). Word count tracked.
+Content is saved and linked to the relevant track, module, and date.
+FR-6.3.2: The Three Questions
+After brain dump, three sequential prompts:
+“What was the hardest concept today?” (free text)
+“Explain it in your own words as if teaching a friend.” (free text, generation effect)
+“What’s one question you still have?” (free text, open loop / Zeigarnik effect)
+FR-6.3.3: Connect Prompt
+Final prompt: “How does anything from today connect to something from another subject?”
+This forces interleaving and cross-subject elaboration.
+Optional — can be skipped, but skipping forfeits bonus XP.
+FR-6.3.4: Session Completion
+Self-rating: “How much could you remember today? 1–5.”
+XP awarded. Recall streak updated.
+Content automatically queued for spaced repetition (see 6.4).
+6.4 Spaced Repetition Engine
+FR-6.4.1: Scheduling Algorithm
+After each recall session, the app schedules review prompts at: Day 1 (next day), Day 2 (2 days later), Day 4, Day 7, Day 14.
+Each review asks: “Can you recall [concept/hardest topic] from [date]?”
+If recall is successful (self-rated 4–5), interval extends. If unsuccessful (1–3), interval resets to Day 1.
+After 4 successful consecutive recalls, the concept is marked “strong” (green) and enters a maintenance cycle (monthly check).
+FR-6.4.2: Review Interface
+Shows the concept or topic. Does NOT show the original brain dump initially.
+Ira writes her recall attempt.
+After writing, she can optionally view her original brain dump to compare and self-assess.
+Self-rates recall quality (1–5).
+FR-6.4.3: Queue Management
+Daily dashboard shows number of reviews due.
+Overdue reviews are flagged and prioritised.
+Maximum reviews per day: configurable (default 10) to prevent overwhelm.
+6.5 Progress Tracking &amp; Analytics
+FR-6.5.1: Syllabus Progress
+Per track: percentage of curriculum covered, chapters completed vs total.
+Pace indicator: weeks ahead / on track / weeks behind vs planned schedule.
+Visual: progress bar or journey map per track.
+FR-6.5.2: Concept Mastery Map
+Visual heat map of all concepts across a subject.
+Green = strong recall (3+ successful retrievals). Amber = fading (1–2 retrievals or declining scores). Red = weak (failed recall or never reviewed).
+Filterable by subject, module, chapter.
+FR-6.5.3: Exam Readiness Score
+Per subject: percentage of concepts at “strong” recall.
+Becomes prominent from 6 months before boards (September 2027).
+Target benchmark: 70%+ green by 3 months before boards.
+FR-6.5.4: Trend Charts
+Recall quality scores over time (weekly rolling average, per subject).
+Brain dump word count trend (proxy for recall volume).
+Spaced repetition completion rate over time.
+GK category coverage distribution.
+6.6 Gamification System
+Designed to match engagement patterns observed in Subway Surfer (endless streaks, quick dopamine, near-miss tension) and Roblox (achievement collection, visible progression, identity).
+FR-6.6.1: XP (Experience Points)
+Earned for: completing daily GK (+10), recall sessions (+25), spaced reviews (+15), journal entries (+5), weekly synthesis (+50), volunteering log (+20), book completion (+100).
+XP drives level progression.
+FR-6.6.2: Levels
+Themed progression: Explorer (L1–3) → Scholar (L4–6) → Navigator (L7–9) → Pathfinder (L10–12) → Trailblazer (L13+).
+Level up triggers a celebratory animation and unlocks new badge slots.
+FR-6.6.3: Streaks
+Per-track streaks: GK daily streak, recall session streak (per Aakash day), German class attendance streak, writing streak (weekly).
+Master streak: consecutive days with at least one meaningful activity across any track.
+Streak milestones: 7, 14, 30, 50, 100, 200 days. Each milestone = achievement badge.
+Streak freeze: 1 free freeze per 30 days (like Duolingo). Preserves streak during illness or travel. Cannot be stacked.
+FR-6.6.4: Achievement Badges
+Milestone badges: “First 30-Day GK Streak,” “A1 German Complete,” “First Psychology Book Finished,” “100 Recall Sessions,” “50 Concepts Mastered (Green),” “First Volunteering Session Logged.”
+Subject mastery badges: unlocked when 80%+ of concepts in a module are green.
+Special badges: “Cross-Subject Connector” (10 connect prompts completed), “Weekly Synthesiser” (4 consecutive weekly synthesis challenges).
+Badges displayed on profile. Collection view.
+FR-6.6.5: Near-Miss Nudges
+When a streak is at risk (approaching end of day with no activity): “Your 47-day GK streak ends in 2 hours! Quick quiz to keep it alive?”
+This is the Subway Surfer near-miss tension — the emotional cost of breaking a long streak is a powerful motivator.
+
+6.7 Nudge &amp; Notification Engine
+FR-6.7.1: Smart Notifications
+Streak protection: alerts when a streak is about to break.
+Spaced repetition reminders: “You have 3 reviews due today.”
+Post-class triggers: “Aakash Physics class done? Time for recall.” (based on calendar-aware schedule)
+Milestone approach: “Goethe A1 course ends in 2 weeks — exam registration reminder.”
+Progress celebrations: “You’ve mastered 50 concepts this month! That’s 12 more than last month.”
+FR-6.7.2: Contextual Nudges
+Connection nudges: “Your GK quiz today connects to your TISS BAT prep — social awareness is 30% of the BAT.”
+Gap nudges: “You haven’t logged volunteering in 3 weeks. Even 2 hours this weekend helps your Ashoka profile.”
+Reinforcement nudges: “Your Biology recall scores have been above 4/5 for 3 weeks. The method is working!”
+FR-6.7.3: Notification Controls
+Ira can configure quiet hours (e.g., during Aakash class, during sleep).
+Maximum notifications per day: configurable (default: 5).
+Exam-season mode: reduces non-essential notifications, focuses on recall and review only.
+6.8 Journal &amp; Reflection Module
+FR-6.8.1: Free-Form Journal
+Text entry with optional tags: #psychology, #bookreflection, #currentaffairs, #personal, #volunteering.
+Entries are private to Ira (parent dashboard does not show content, only frequency).
+Word count tracked. Writing streak maintained.
+FR-6.8.2: Prompted Reflections
+Weekly reflection prompt: “What’s one thing you learned this week that changed how you think about something?”
+Post-book prompt: “You finished [book title]. What was the single most surprising idea?”
+Monthly prompt: “Look back at your journal entries this month. What patterns do you notice in what interests you?”
+FR-6.8.3: Application Essay Feed
+When Ashoka/Christ application season approaches, the app surfaces a curated feed of her best journal entries, book reflections, and volunteering logs as raw material for essays.
+This is not AI-generated essay content — it’s her own words and reflections, organised for easy reference.
+6.9 Parent Dashboard
+FR-6.9.1: Track Health Overview
+7 tracks displayed as green/amber/red status cards.
+Green: streak active, progress on schedule. Amber: streak broken or progress slipping (1–2 weeks behind). Red: no activity for 2+ weeks or significantly behind schedule.
+One-glance design: the parent should assess overall health in under 30 seconds.
+FR-6.9.2: Weekly Summary
+Auto-generated summary: activities completed, streaks maintained or broken, notable achievements, any tracks that moved from green to amber or red.
+Delivered as an in-app view and optionally as a weekly email/notification.
+FR-6.9.3: Milestone Tracker
+The 22-month timeline from the roadmap document, displayed as a visual timeline.
+Each milestone (A1 German by Dec 2026, NIOS Maths registration by Oct 2027, Ashoka application by Jan 2028, etc.) shown with status: upcoming / on track / at risk / completed.
+FR-6.9.4: Exam Readiness View
+Available from ~6 months before boards.
+Per-subject concept mastery distribution (green/amber/red percentages).
+Projected readiness based on current trends.
+FR-6.9.5: Data the Parent Does NOT See
+Content of brain dumps and journal entries (private to Ira).
+Real-time activity feed (no live tracking).
+Individual recall session details (only aggregated scores and trends).
+
+6.10 AI Integration Layer (v2)
+Deferred to v2, but architecturally planned for in v1.
+FR-6.10.1: Smart Recall Prompts
+Instead of generic “what did you learn?”, AI generates targeted prompts based on the curriculum: “Today Aakash covered Thermodynamics: Laws. Write down the three laws in your own words and give one real-world example of each.”
+FR-6.10.2: Curriculum Extraction
+Upload Aakash syllabus PDF or photo → AI extracts and structures the curriculum into the Track → Module → Chapter → Concept hierarchy.
+FR-6.10.3: Cross-Subject Connections
+AI suggests connections: “You covered Chemical Bonding in Chemistry and Protein Structure in Biology this week. How do chemical bonds determine protein folding?”
+FR-6.10.4: Gap Detection &amp; Recommendations
+AI analyses recall patterns and identifies: “Your Organic Chemistry recall has been below 3/5 for two weeks. Consider revisiting Chapter 7 this weekend.”
+
+7. Key Performance Indicators
+7.1 Engagement KPIs
+KPI
+Definition
+Target
+Daily Active Usage
+Days with at least 1 meaningful activity / total days
+90%+ of days
+Recall Session Completion Rate
+Recall sessions completed / Aakash class days
+85%+ of Aakash days
+Track Activity Coverage
+Tracks with activity in rolling 7-day window
+5+ of 7 tracks per week
+
+7.2 Retention KPIs
+KPI
+Definition
+Target
+Recall Quality Score
+Self-rated recall (1–5), weekly rolling average, per subject
+Trending upward. Above 3.5 average.
+Spaced Repetition Completion
+Scheduled reviews completed / scheduled reviews due
+80%+
+Concept Mastery Distribution
+% of covered concepts at green (3+ successful recalls)
+70%+ green by 3 months before boards
+
+7.3 Progress KPIs
+KPI
+Definition
+Target
+Syllabus Progress vs Schedule
+Chapters covered / chapters planned by this date
+Never more than 2 weeks behind on any track
+Milestone Hit Rate
+Milestones completed on time / total milestones due
+80%+
+German Level Progression
+Current level vs planned level by date
+On track per Goethe schedule
+
+
+
+
+
+7.4 Readiness KPIs (from Sep 2027)
+KPI
+Definition
+Target
+Exam Readiness Score
+% of concepts at strong recall per subject
+Physics 75%+, Chemistry 75%+, Biology 80%+
+GK Breadth Score
+Coverage across GK categories (Polity, Economy, Intl, Science, Env, Sports)
+No category below 15% of total coverage
+Mock Performance Trend
+Scores on CUET mocks / board sample papers over time
+Upward trend. Above target cutoff by 2 months before exam.
+
+7.5 Behavioural KPIs
+KPI
+Definition
+Target
+GK Streak
+Longest consecutive daily GK streak
+600+ days by boards (entire 22-month window)
+Reading Velocity
+Psychology books completed over time
+1 book per 6–8 weeks. 10+ books by boards.
+Writing Frequency
+Journal entries per month
+4+ per month (roughly weekly)
+Volunteering Consistency
+Volunteering sessions per month
+1–2 per month
+
+The single most important KPI
+Recall Session Completion Rate on Aakash class days. If she consistently does the post-class brain dump and follows through on spaced repetition, the science foundation is solid. Everything else builds on that. This is the leading indicator that predicts success across boards, CUET, and Germany readiness.
+
+8. Non-Functional Requirements
+Performance: app loads in under 2 seconds on a standard mobile connection. Recall session interface is lag-free for text input.
+Availability: 99%+ uptime. This is a daily-use habit app — downtime breaks streaks and erodes trust.
+Data privacy: Ira’s brain dump and journal content is private. Parent dashboard shows aggregated metrics only. All data encrypted at rest and in transit.
+Mobile-first: designed for mobile viewport (375–430px width). Desktop access for parent dashboard is secondary.
+PWA installability: installable on Android and iOS via browser. Service worker for basic offline capability (queue brain dumps offline, sync when connected).
+Data persistence: server-side database with user authentication. Data survives app reinstalls and phone changes.
+Notification reliability: push notifications must be reliable — streak protection and spaced repetition reminders are time-sensitive.
+
+9. Assumptions &amp; Dependencies
+9.1 Assumptions
+Ira has a personal smartphone (Android or iOS) with reliable internet access.
+Aakash class schedule is relatively stable and can be input at the start of each term.
+Goethe-Institut course dates follow the published 2026 schedule (Jan–Dec). Future year schedules are similar.
+Ira will self-rate recall honestly. The system’s value depends on honest self-assessment. Gamification should not incentivise inflating scores.
+Curriculum content will be entered manually at launch. AI-assisted extraction is deferred to v2.
+Niranjan will review the parent dashboard at least weekly to identify amber/red flags and intervene where needed.
+9.2 Dependencies
+Aakash syllabus / topic schedule: needed to pre-populate the PCB curriculum and calendar-aware recall triggers.
+Goethe-Institut course curriculum: A1–B2 vocabulary and grammar topic lists for German learning path.
+NCERT Psychology Class 11–12 chapter index: for Psychology track structuring.
+NIOS Maths syllabus: for Maths track structuring (needed by mid-2027).
+
+10. Phasing &amp; Build Roadmap
+10.1 Phase 1: MVP (Target: July 2026)
+Core habit-building features. Get Ira using the app daily before German starts in August.
+User authentication (Ira + Parent accounts).
+Track setup (7 tracks with basic structure).
+Daily dashboard with GK quiz prompt and task surfacing.
+Post-class recall session flow (brain dump + 3 questions + connect).
+Basic streak tracking (GK streak, recall streak).
+XP system and level progression.
+Journal entry (free-form with tags).
+Basic parent dashboard (track health green/amber/red, streaks).
+10.2 Phase 2: Learning Intelligence (Target: September 2026)
+Spaced repetition and curriculum depth. Coincides with Goethe A1 start.
+Spaced repetition engine (scheduling + review interface).
+Curriculum data entry and learning path management.
+Syllabus progress tracking vs schedule.
+Concept mastery map (green/amber/red visualisation).
+Achievement badges system.
+German track integrated with Goethe course structure.
+Push notifications (streak protection, spaced rep reminders).
+10.3 Phase 3: Analytics &amp; Readiness (Target: January 2027)
+Deeper analytics and exam preparation features.
+Trend charts (recall quality, word count, completion rates).
+Weekly summary for parent dashboard (auto-generated).
+Milestone tracker (22-month timeline visualisation).
+GK category tracking and breadth analysis.
+Reading tracker with book log and prompts.
+Volunteering log.
+10.4 Phase 4: AI &amp; Exam Readiness (Target: July 2027)
+AI integration and exam-season features.
+Claude API integration for smart recall prompts.
+AI-assisted curriculum extraction from uploaded materials.
+Cross-subject connection suggestions.
+Exam readiness scoring and heat maps.
+Mock test score tracking.
+Exam-season mode (reduced notifications, focused on core activities).
+Application essay feed (curated journal entries for Ashoka/Christ prep).
+
+Why phase this way
+Phase 1 ships fast (within 6 weeks) and gets the core habit loop running: do the task → earn XP → maintain streak → see progress. The more sophisticated features (spaced repetition, analytics, AI) layer on top once the daily habit is established. You can’t optimise retention if she isn’t using the app daily — so engagement comes first, intelligence comes second.

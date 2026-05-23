@@ -1,0 +1,157 @@
+/* Ira — design tokens & base type
+   ----------------------------------------------------- */
+
+:root {
+  /* paper / ink */
+  --paper:        #F2EEE5;
+  --paper-2:      #EBE6DA;
+  --card:         #FBF8F1;
+  --card-2:       #FFFDF7;
+  --ink:          #1A1814;
+  --ink-2:        #3A352C;
+  --ink-mute:     #6A6357;
+  --ink-faint:    #9C9588;
+  --hair:         rgba(26,24,20,0.09);
+  --hair-2:       rgba(26,24,20,0.05);
+
+  /* signal */
+  --accent:       #C5532A;     /* vermillion */
+  --accent-ink:   #8C3B1F;
+  --accent-soft:  #F4DDD0;
+  --green:        #5C7A4F;
+  --green-soft:   #DCE5D2;
+  --amber:        #C28A2C;
+  --amber-soft:   #F1E1B7;
+  --red:          #B0473A;
+  --red-soft:     #ECC9C3;
+
+  /* track palette — deep, muted, distinct */
+  --tk-phy:       #2C4E7C;
+  --tk-chem:      #3F6B4C;
+  --tk-bio:       #7C6F2B;
+  --tk-ger:       #A85738;
+  --tk-math:      #5B4A7A;
+  --tk-psy:       #9A6C2E;
+  --tk-gk:        #2C2A26;
+  --tk-vol:       #76525E;
+
+  /* radii / shadow */
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 20px;
+  --r-xl: 28px;
+
+  --shadow-1: 0 1px 2px rgba(26,24,20,0.04), 0 2px 8px rgba(26,24,20,0.03);
+  --shadow-2: 0 4px 16px rgba(26,24,20,0.06), 0 1px 3px rgba(26,24,20,0.04);
+
+  /* type */
+  --f-serif: 'Instrument Serif', 'Source Serif 4', Georgia, serif;
+  --f-sans:  'DM Sans', -apple-system, system-ui, sans-serif;
+  --f-mono:  'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* base */
+body {
+  margin: 0;
+  font-family: var(--f-sans);
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* utility class for serif moments */
+.serif { font-family: var(--f-serif); font-weight: 400; letter-spacing: 0; }
+.mono { font-family: var(--f-mono); font-feature-settings: 'tnum' 1; }
+.upper { text-transform: uppercase; letter-spacing: 0.08em; }
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* hide scrollbars inside frames */
+.no-scroll::-webkit-scrollbar { display: none; }
+.no-scroll { scrollbar-width: none; }
+
+/* ─── Visual system variants ────────────────────────────────
+   Each .theme-* class overrides the token vars. Wrap a Phone (or
+   any subtree) in <div class="theme-bloom"> etc. to retheme.
+   Day themes can sit anywhere; the night theme inverts paper/ink. */
+
+.theme-bloom {
+  --paper:        #FBEFE6;
+  --paper-2:      #F4DDCE;
+  --card:         #FFFAF4;
+  --card-2:       #FFFFFF;
+  --ink:          #2D1F26;
+  --ink-2:        #4A3540;
+  --ink-mute:     #8A6E7B;
+  --ink-faint:    #BA9CA8;
+  --hair:         rgba(45,31,38,0.09);
+  --hair-2:       rgba(45,31,38,0.045);
+  --accent:       #D9627E;
+  --accent-ink:   #9E3552;
+  --accent-soft:  #F8D7DD;
+  --green:        #7A9A6E;
+  --green-soft:   #E1EBD5;
+  --amber:        #D49A4A;
+  --amber-soft:   #F4E3B8;
+  --red:          #C25E50;
+  --red-soft:     #F1CFC8;
+  --r-md: 18px;
+  --r-lg: 26px;
+  --r-xl: 32px;
+}
+
+.theme-night {
+  --paper:        #14130F;
+  --paper-2:      #1C1B17;
+  --card:         #211F1A;
+  --card-2:       #2A2620;
+  --ink:          #F2EBDC;
+  --ink-2:        #C9C2B3;
+  --ink-mute:     #8F8675;
+  --ink-faint:    #5E574C;
+  --hair:         rgba(242,235,220,0.10);
+  --hair-2:       rgba(242,235,220,0.045);
+  --accent:       #FFB078;
+  --accent-ink:   #FFD3B0;
+  --accent-soft:  rgba(255,176,120,0.18);
+  --green:        #A5C58F;
+  --green-soft:   rgba(165,197,143,0.16);
+  --amber:        #E8C26B;
+  --amber-soft:   rgba(232,194,107,0.16);
+  --red:          #E08775;
+  --red-soft:     rgba(224,135,117,0.16);
+}
+
+.theme-notebook {
+  --paper:        #F5ECCF;
+  --paper-2:      #ECDFB6;
+  --card:         #FBF4DE;
+  --card-2:       #FFFCEF;
+  --ink:          #221E16;
+  --ink-2:        #4A4234;
+  --ink-mute:     #76694C;
+  --ink-faint:    #A39879;
+  --hair:         rgba(34,30,22,0.13);
+  --hair-2:       rgba(34,30,22,0.06);
+  --accent:       #C13E2A;
+  --accent-ink:   #8B2D1E;
+  --accent-soft:  #F2D6CC;
+  --green:        #5C7A4F;
+  --green-soft:   #DCE5D2;
+  --amber:        #B98424;
+  --amber-soft:   #EDD8A8;
+  --red:          #B0473A;
+  --red-soft:     #ECC9C3;
+  --f-serif: 'Newsreader', 'Source Serif 4', Georgia, serif;
+}
+/* notebook gets ruled-line subtle backgrounds on cards */
+.theme-notebook .nb-rule {
+  background-image: repeating-linear-gradient(transparent 0, transparent 27px, rgba(34,30,22,0.06) 27px, rgba(34,30,22,0.06) 28px);
+}
+
+/* progress strip shimmer (very subtle) */
+@keyframes ira-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+.pulse-dot { animation: ira-pulse 1.8s ease-in-out infinite; }
