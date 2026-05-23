@@ -1,0 +1,55 @@
+/* Ira — design tokens · Soft Bloom theme (default)
+   ------------------------------------------------- */
+
+:root {
+  /* paper / ink — Soft Bloom */
+  --paper:        #FBEFE6;
+  --paper-2:      #F4DDCE;
+  --card:         #FFFAF4;
+  --card-2:       #FFFFFF;
+  --ink:          #2D1F26;
+  --ink-2:        #4A3540;
+  --ink-mute:     #8A6E7B;
+  --ink-faint:    #BA9CA8;
+  --hair:         rgba(45,31,38,0.09);
+  --hair-2:       rgba(45,31,38,0.045);
+
+  /* signal */
+  --accent:       #D9627E;
+  --accent-ink:   #9E3552;
+  --accent-soft:  #F8D7DD;
+  --green:        #7A9A6E;
+  --green-soft:   #E1EBD5;
+  --amber:        #D49A4A;
+  --amber-soft:   #F4E3B8;
+  --red:          #C25E50;
+  --red-soft:     #F1CFC8;
+
+  /* track palette */
+  --tk-phy:       #2C4E7C;
+  --tk-chem:      #3F6B4C;
+  --tk-bio:       #7C6F2B;
+  --tk-ger:       #A85738;
+  --tk-math:      #5B4A7A;
+  --tk-psy:       #9A6C2E;
+  --tk-gk:        #2C2A26;
+  --tk-vol:       #76525E;
+
+  /* radii — Soft Bloom is curvier */
+  --r-sm: 12px;
+  --r-md: 18px;
+  --r-lg: 26px;
+  --r-xl: 32px;
+
+  --shadow-1: 0 1px 2px rgba(45,31,38,0.04), 0 2px 8px rgba(45,31,38,0.03);
+  --shadow-2: 0 4px 16px rgba(45,31,38,0.06), 0 1px 3px rgba(45,31,38,0.04);
+
+  /* type */
+  --f-serif: 'Instrument Serif', 'Source Serif 4', Georgia, serif;
+  --f-sans:  'DM Sans', -apple-system, system-ui, sans-serif;
+  --f-mono:  'JetBrains Mono', ui-monospace, monospace;
+
+  /* layout */
+  --safe-top:    env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}

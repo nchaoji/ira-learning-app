@@ -1,0 +1,81 @@
+/* Base styles */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--f-sans);
+  color: var(--ink);
+  background: var(--paper);
+  overscroll-behavior: none;
+}
+
+#root {
+  height: 100%;
+  min-height: 100dvh;
+}
+
+/* utility classes */
+.serif  { font-family: var(--f-serif); font-weight: 400; letter-spacing: 0; }
+.mono   { font-family: var(--f-mono); font-feature-settings: 'tnum' 1; }
+.upper  { text-transform: uppercase; letter-spacing: 0.08em; }
+.tnum   { font-variant-numeric: tabular-nums; }
+
+/* hide scrollbars */
+.no-scroll::-webkit-scrollbar { display: none; }
+.no-scroll { scrollbar-width: none; }
+
+/* app layout ─────────────────────────────────── */
+
+/* Ira's mobile screens: max 430px centered on desktop */
+.ira-screen {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  max-width: 430px;
+  margin: 0 auto;
+  background: var(--paper);
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Parent dashboard: full width */
+.parent-screen {
+  min-height: 100dvh;
+  background: var(--paper);
+}
+
+/* on desktop, add a visible boundary for the mobile screens */
+@media (min-width: 600px) {
+  body {
+    background: #EDE4D8;
+  }
+  .ira-screen {
+    box-shadow: 0 0 0 1px rgba(45,31,38,0.08), var(--shadow-2);
+    min-height: 100dvh;
+  }
+}
+
+/* safe area spacing */
+.status-spacer {
+  height: calc(54px + var(--safe-top));
+}
+.bottom-spacer {
+  height: calc(80px + var(--safe-bottom));
+}
+
+/* progress bar */
+@keyframes ira-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+.pulse-dot { animation: ira-pulse 1.8s ease-in-out infinite; }
